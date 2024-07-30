@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.masonry-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Adjust the gap as needed */
+}
+
+.masonry-grid-item {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .masonry-grid {
+    gap: 1.5rem; /* Adjust the gap for larger screens */
+  }
+
+  .masonry-grid-item {
+    width: calc(50% - 0.75rem); /* Adjust item width for medium screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .masonry-grid-item {
+    width: calc(33.33% - 0.75rem); /* Adjust item width for large screens */
+  }
+}
