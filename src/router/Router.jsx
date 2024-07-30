@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     element: <div>Routes Not Found</div>,
   },
   {
-    path: "/KaranggedeB",
+    path: "/",
     element: <MainLayout />,
     children: [
       {

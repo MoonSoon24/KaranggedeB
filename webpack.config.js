@@ -10,6 +10,7 @@ export default {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
+    publicPath: "/", // Specify the base path for all the assets within your application
   },
   module: {
     rules: [
@@ -20,6 +21,14 @@ export default {
           loader: "babel-loader",
         },
       },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        type: "asset/resource",
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
   resolve: {
@@ -29,5 +38,6 @@ export default {
     static: path.join(__dirname, "dist"),
     compress: true,
     port: 9000,
+    historyApiFallback: true, // Enable this if using client-side routing (e.g., React Router)
   },
 };
