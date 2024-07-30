@@ -21,11 +21,11 @@ const router = createBrowserRouter([
     element: <div>Routes Not Found</div>,
   },
   {
-    path: "/",
+    path: "/KaranggedeB",
     element: <MainLayout />,
     children: [
       {
-        path: "/",
+        path: "/KaranggedeB",
         element: <HomePage />,
       },
       {
