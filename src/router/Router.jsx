@@ -29,23 +29,23 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "/home",
+        path: "/KaranggedeB/home",
         element: <HomePage />,
       },
       {
-        path: "/about",
+        path: "/KaranggedeB/about",
         element: <AboutUsPage />,
       },
       {
-        path: "/Product",
+        path: "/KaranggedeB/Product",
         element: <ProductPage />,
       },
       {
-        path: "/gallery",
+        path: "/KaranggedeB/gallery",
         element: <GalleryPage />,
       },
       {
-        path: "/contact",
+        path: "/KaranggedeB/contact",
         element: <ContactPage />,
       }
 

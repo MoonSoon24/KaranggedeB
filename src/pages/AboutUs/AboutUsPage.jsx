@@ -30,7 +30,7 @@ const AboutUsPage = () => {
                         </p>
                         <h1 className="font-bold text-3xl pt-5 mb-5">Petilasan Gedong</h1>
                         <p className="text-black mb-5">
-                            Petilasan gedong adalah sebuah adat istiadat yang dimiliki oleh Karanggede dan Dompol, adat ini dilakukan sekali setahun pada hari tertentu,
+                            Petilasan gedong adalah sebuah adat istiadat yang dimiliki oleh Karanggede dan Dompol, adat ini dilakukan sekali setahun pada hari tertentu, dan memiliki beberapa runtutan kegiatan yang gharus dilakukan secara berurutan dalam hari itu..
                         </p>
                     </div>
 

@@ -32,7 +32,7 @@ const NavbarHome = ({ routes }) => {
       <div className="flex items-center justify-around text-blue-gray-900">
         <Typography
           as="a"
-          href="/home"
+          href="/KaranggedeB/home"
           className="mr-4 cursor-pointer py-1.5 font-medium w-20"
         >
           <img src={KaranggedeBLogo} alt="" width="60" height="60" />

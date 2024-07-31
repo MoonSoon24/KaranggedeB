@@ -5,24 +5,20 @@ import NavbarHome from "../component/NavbarHome";
 
 const routes = [
   {
-    path: "/home",
+    path: "/KaranggedeB/home",
     name: "Home",
   },
   {
-    path: "/about",
+    path: "/KaranggedeB/about",
     name: "Tentang Kami",
   },
   {
-    path: "/product",
+    path: "/KaranggedeB/product",
     name: "Produk",
   },
   {
-    path: "/gallery",
+    path: "/KaranggedeB/gallery",
     name: "Galeri",
-  },
-  {
-    path: "/contact",
-    name: "Kontak",
   },
 ];
 
