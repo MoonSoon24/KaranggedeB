@@ -1,5 +1,4 @@
-{
-  "homepage": "https://moonsoon24.github.io/KaranggedeB",
+{  
   "name": "Karanggede B",
   "private": true,
   "version": "0.0.0",
@@ -9,10 +8,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "build": "vite build",
-    "start": "vite start",
-    "predeploy": "npm run build",    
-    "deploy": "gh-pages -d dist",
-    "clean": "rm -rf dist"
+    "start": "vite start"  
   },
   "dependencies": {
     "@heroicons/react": "^2.1.3",
