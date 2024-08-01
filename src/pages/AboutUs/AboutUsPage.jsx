@@ -30,7 +30,7 @@ const AboutUsPage = () => {
                         </p>
                         <h1 className="font-bold text-3xl pt-5 mb-5">Petilasan Gedong</h1>
                         <p className="text-black mb-5">
-                            Petilasan gedong adalah sebuah adat istiadat yang dimiliki oleh Karanggede dan Dompol, adat ini dilakukan sekali setahun pada hari tertentu, dan memiliki beberapa runtutan kegiatan yang gharus dilakukan secara berurutan dalam hari itu..
+                            Petilasan gedong adalah sebuah adat istiadat yang dimiliki oleh Karanggede,Bendo dan Dompol, adat ini dilakukan sekali setahun pada hari senin paing, dan memiliki beberapa runtutan kegiatan yang harus dilakukan secara berurutan dalam hari itu. Kegiatan ini dilakukan dengan cara Merti Dusun atau Rasul Dusun, ada beberapa prosesi dalam pelaksanaan Merti Dusun ini, yang pertama adalah pemasangan bobok (karya masyarakat yang terbuat dari lempengan kayu dan dibentuk menyerupai aksesoris) yang dilakukan di petilasan gedong yang berada di arah selatan Karanggede B, prosesi yang kedua adalah penyembelihan wedus (kambing) di Rasul Dusun yang lokasinya di gilir antara Karanggede A, Karanggede B, Bendo dan Dompol.
                         </p>
                     </div>
 

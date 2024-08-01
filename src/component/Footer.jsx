@@ -1,13 +1,16 @@
 import React from "react";
 import { Typography } from "@material-tailwind/react";
+import instagramLogo from "./../assets/image/instagram.png";
+import uajyLogo from "./../assets/image/uajy.png";
+
 const Footer = () => {
   return (
     <footer className="w-full bg-white border p-8">
       <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 bg-white text-center md:justify-between">
         <img
-          src="https://docs.material-tailwind.com/img/logo-ct-dark.png"
+          src={uajyLogo}
           alt="logo-ct"
-          className="w-10"
+          className="w-20"
         />
         <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
           <li>
@@ -30,6 +33,9 @@ const Footer = () => {
               Kontak Kami
             </Typography>
           </li>
+          <a href="https://www.instagram.com/kim_karanggede.b/" target="_blank" rel="noopener noreferrer">
+            <img src={instagramLogo} alt="Instagram" className="w-8 h-auto" />
+          </a>
         </ul>
       </div>
       <hr className="my-8 border-blue-gray-50" />

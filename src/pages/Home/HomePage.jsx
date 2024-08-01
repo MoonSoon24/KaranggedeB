@@ -132,15 +132,15 @@ const HomePage = () => {
             className="h-full w-full object-cover"
           />
           <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/60">
-            <div className="w-3/4 pl-12 md:w-2/4 md:pl-20 lg:pl-32">
+            <div className="w-3/4 md:w-2/4">
               <Typography
                 variant="h1"
                 color="white"
-                className="mb-4 mr-32 text-3xl md:text-4xl lg:text-5xl flex justify-center"
+                className="mb-4 text-3xl md:text-4xl lg:text-5xl flex justify-center"
               >
                 Khas Karanggede B
               </Typography>
-              <div className="mt-52 mr-36 flex gap-4 justify-center">
+              <div className="mt-52 flex gap-4 justify-center items-center">
                 <a href="/product">
                   <Button size="lg" color="white">
                     Lihat

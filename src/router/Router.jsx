@@ -25,27 +25,27 @@ const router = createBrowserRouter([
     element: <MainLayout />,
     children: [
       {
-        path: "/KaranggedeB",
+        path: "/",
         element: <HomePage />,
       },
       {
-        path: "/KaranggedeB/home",
+        path: "/home",
         element: <HomePage />,
       },
       {
-        path: "/KaranggedeB/about",
+        path: "/about",
         element: <AboutUsPage />,
       },
       {
-        path: "/KaranggedeB/Product",
+        path: "/product",
         element: <ProductPage />,
       },
       {
-        path: "/KaranggedeB/gallery",
+        path: "/gallery",
         element: <GalleryPage />,
       },
       {
-        path: "/KaranggedeB/contact",
+        path: "/contact",
         element: <ContactPage />,
       }
 

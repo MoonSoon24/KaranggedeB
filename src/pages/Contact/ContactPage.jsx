@@ -14,7 +14,8 @@ const ContactPage = () => {
                         <h1 className="font-bold text-3xl">Hubungi kami</h1>
                         <hr className="border-t-2 border-black mb-4" />
                         <p className="text-black">
-                            hubungi kami di:
+                            Iduk Sudiyanto (Pak Dukuh Karanggede B) : (0813-2825-4354)<br />
+                            Adin (KIM Karanggede B) : (0852-2858-5735)
                         </p>
                     </div>
                 </div>
